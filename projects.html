@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Showcasing the work of Alonge Korede, a skilled web developer and designer. Explore creative projects, innovative designs, and custom web solutions." />
+    <meta name="Alonge Korede" content="web developer, graphic designer, portfolio," />
+    <title>Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <!-- Bootstrap icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="flex flex-col min-h-screen font-sans bg-gray-100">
+    <main class="flex-grow">
+        <!-- Navigation -->
+        <nav class="bg-white py-3 shadow-sm">
+            <div class="max-w-7xl mx-auto px-5 flex items-center justify-between">
+                <a href="index.html" class="text-xl font-bold text-blue-600">Full Stack Developer</a>
+                <button id="navbar-toggle" class="lg:hidden text-gray-600 focus:outline-none" aria-label="Toggle navigation">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div id="navbar-menu" class="hidden lg:flex lg:items-center lg:ml-auto">
+                    <ul class="flex flex-col lg:flex-row gap-4 text-sm font-bold text-gray-700">
+                        <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+                        <li><a href="resume.html" class="hover:text-blue-600">Resume</a></li>
+                        <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Projects Section -->
+        <section class="py-10">
+            <div class="max-w-7xl mx-auto px-5 py-5">
+                <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-6">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Project 1: Lifecare Medical Center – 2024 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
+                        <img src="assets/lifecare.png" class="w-full h-48 object-cover" alt="Hospital Project">
+                        <div class="p-5 flex-grow">
+                            <h5 class="text-xl font-bold text-gray-800 mb-2">Hospital Booking App</h5>
+                            <p class="text-gray-700 mb-4">
+                                A hospital web platform that allows patients to register, book appointments, access their digital hospital card, and submit feedback. It includes an admin dashboard and a blog section for health content.
+                            </p>
+                            <a href="https://lifecaremedical.ng/" target="_blank" class="inline-block text-blue-600 hover:text-blue-800 font-semibold">View Live</a>
+                        </div>
+                    </div>
+                    <!-- Project 2: Mathews’ & Margarets’ International Schools – April 2025 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
+                        <img src="assets/matmarg.png" class="w-full h-48 object-cover" alt="Admission Portal">
+                        <div class="p-5 flex-grow">
+                            <h5 class="text-xl font-bold text-gray-800 mb-2">Admission Form Portal</h5>
+                            <p class="text-gray-700 mb-4">
+                                A school admission platform where users can purchase, complete, and download forms. Includes email automation, feedback forms, Google Maps, and admin notifications for seamless interaction.
+                            </p>
+                            <a href="https://matandmargintlschools.sch.ng/" target="_blank" class="inline-block text-blue-600 hover:text-blue-800 font-semibold">View Live</a>
+                        </div>
+                    </div>
+                    <!-- Project 3: Masterpiece Apartment – May 2025 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
+                        <img src="assets/apartment.png" class="w-full h-48 object-cover" alt="Shortlet Apartment Website">
+                        <div class="p-5 flex-grow">
+                            <h5 class="text-xl font-bold text-gray-800 mb-2">Shortlet Apartment Website</h5>
+                            <p class="text-gray-700 mb-4">
+                                A modern apartment showcase and booking system with admin tools for managing listings, inquiries, and reservations. Features location map, gallery, and instant notification system.
+                            </p>
+                            <a href="https://masterpieceapartments.com" target="_blank" class="inline-block text-blue-600 hover:text-blue-800 font-semibold">View Live</a>
+                        </div>
+                    </div>
+                    <!-- Project 4: SchoolRecruit – June 2025 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
+                        <img src="assets/project6.png" class="w-full h-48 object-cover" alt="Recruitment Platform">
+                        <div class="p-5 flex-grow">
+                            <h5 class="text-xl font-bold text-gray-800 mb-2">SchoolRecruit Website</h5>
+                            <p class="text-gray-700 mb-4">
+                                SchoolRecruit is a dynamic platform revolutionizing how NYSC graduates connect with teaching opportunities in schools across Nigeria. Built with PHP and MySQL, it features a robust job application system, secure payment integration, and an innovative point-based reward system to engage users. Its intuitive interface ensures seamless navigation for both job seekers and employers, driving impactful career connections.
+                            </p>
+                            <a href="https://schoolrecruit.ng/" target="_blank" class="inline-block text-blue-600 hover:text-blue-800 font-semibold">View Live</a>
+                        </div>
+                    </div>
+                    <!-- (Optional) Portfolio Card -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col h-full">
+                        <img src="assets/portfolio.png" class="w-full h-48 object-cover" alt="Portfolio">
+                        <div class="p-5 flex-grow">
+                            <h5 class="text-xl font-bold text-blue-600 text-center mb-2">My Portfolio</h5>
+                            <p class="text-gray-700 text-center mb-4">
+                                A complete overview of my professional work, featuring projects built with PHP, JavaScript, and modern frameworks. Designed to showcase my development process and growth journey.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://oluwakoredealonge.github.io/folio/projects.html" target="_blank" class="inline-block text-blue-600 hover:text-blue-800 font-semibold">View Live</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action Section -->
+        <section class="py-10 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+            <div class="max-w-7xl mx-auto px-5 my-5">
+                <div class="text-center">
+                    <h2 class="text-4xl font-extrabold mb-4">Let's build something amazing together!</h2>
+                    <a href="contact.html" class="inline-block border border-white text-white font-bold text-lg px-6 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition">Contact me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="max-w-7xl mx-auto px-5">
+            <div class="flex flex-col sm:flex-row items-center justify-between">
+                <div class="text-sm text-gray-600">Copyright © Korede Alonge 2025</div>
+            </div>
+        </div>
+    </footer>
+    <!-- Navbar toggle script -->
+    <script>
+        document.getElementById('navbar-toggle').addEventListener('click', () => {
+            const menu = document.getElementById('navbar-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
